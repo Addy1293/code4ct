@@ -42,7 +42,7 @@ Resources
 - Live Link Created
 
 # Contributors:
-    Jayson Manas
+    Adam Gool
 
 
 This is the live link to my website: https://addy1293.github.io/code4ct/index.html
