@@ -1,7 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px; }
+
 .navbar {
-  text-align: center;
-  padding-left: 40.5px;
-  padding-right: 40.5px;
-  padding-top: 15px; }
+  text-align: right; }
+
+.search {
+  margin-left: 45%; }
 
 /*# sourceMappingURL=style.css.map */
