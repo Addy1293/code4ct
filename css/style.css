@@ -10,7 +10,10 @@
   margin-left: 45%; }
 
 .picture {
-  background-image: url(../imgs/1.jpg);
+  margin-top: 50px;
   text-align: center; }
+
+.main_image {
+  width: -webkit-fill-avaliable; }
 
 /*# sourceMappingURL=style.css.map */
