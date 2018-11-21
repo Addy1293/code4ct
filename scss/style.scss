@@ -10,6 +10,8 @@
     margin-left: 45%;
 }
 .background{
+    background-blend-mode: multiply;
+    background-color: grey;
     background-image: url(../imgs/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,15 +19,12 @@
     margin-top: 10px;
 }
 .txt{
-    transform: translate(34%, -188%);
+    text-align: -webkit-center;
+    position: absolute;
+    width: 480px;
+    transform: translate(105%, -203%);
     color: #e8e8e6;
 }
-.ptxt1{
-    text-align: justify;
-    width: 30%;
-}
-h1{
-    text-align: justify;
-}
+
 
   
