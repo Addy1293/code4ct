@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+.navbar{
+  text-align: right;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+
+}
+.container_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content;
+    
+    img{
+        padding: 5px;
+    }
+}
