@@ -41,3 +41,11 @@
     width: 322px;
     text-align: center;
 }
+.container_3{
+    display: grid;
+}
+.images1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
