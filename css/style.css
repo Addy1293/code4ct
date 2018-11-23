@@ -25,7 +25,8 @@
   margin-top: 15px; }
 
 .navbar {
-  text-align: right; }
+  text-align: right;
+  position: relative; }
 
 .grid {
   display: grid;
