@@ -1,17 +1,21 @@
+// 1st container section
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 15px;
 }
+// navbar on top of page
 .navbar{
   text-align: right;
 }
+// structure for images
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 15px;
 
 }
+// align text according to images
 .container_2{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,16 +25,15 @@
         padding: 5px;
     }
 }
+// banner text structure
 .grid_2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 30px 60px;
     background-color: black;
     color: whitesmoke;
-    // width: 30%;
-    // text-align: center;
-    // padding-right: 40px;
 }
+// text for banner
 .grid_text{
     padding-left: 40px;
     padding-right: 40px;
