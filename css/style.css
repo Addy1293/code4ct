@@ -46,6 +46,12 @@
   background-color: black;
   color: whitesmoke; }
 
+.grid_text {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 322px;
+  text-align: center; }
+
 .search {
   margin-left: 45%; }
 
@@ -89,11 +95,5 @@
   padding: 8px;
   width: 110px;
   position: relative; }
-
-.text {
-  padding-left: 40px;
-  padding-right: 40px;
-  width: 322px;
-  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
