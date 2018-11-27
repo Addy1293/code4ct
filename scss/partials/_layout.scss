@@ -13,8 +13,14 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 15px;
-
+    margin-top: 40px;
+}
+// txt structure 
+.left{
+    @include red_inline;
+    text-align: justify;
+    padding-left: 355px;
+    padding-right: 16%;
 }
 // align text according to images
 .container_2{
@@ -23,7 +29,7 @@
     width: min-content;
     
     img{
-        padding: 5px;
+        padding: 10px;
     }
 }
 // banner text structure
@@ -44,9 +50,9 @@
 }
 // display text above grid
 .container3{
-    @include red_line;
-    padding-left: 187.5px;
-    padding-right: 187.5px;
+    @include red_inline;
+    padding-left: 340px;
+    padding-right: 423px;
     margin-bottom: 50px;
     margin-top: 50px;
 
@@ -54,8 +60,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: min-content;
-        margin-left: 130px;
-        padding: 10px;
+        margin-left: 0px;
         .course_img{
             display: grid;
             grid-template-columns: 1fr 1fr;

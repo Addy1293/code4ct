@@ -16,8 +16,8 @@
 
 .left {
   text-align: justify;
-  padding-left: 350px;
-  padding-right: 10%; }
+  padding-left: 390px;
+  padding-right: 16%; }
 
 .container {
   display: grid;
@@ -31,14 +31,32 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 15px; }
+  margin-top: 40px; }
+
+.left {
+  text-align: justify;
+  padding-left: 355px;
+  padding-right: 16%; }
+  .left .red_inline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content; }
+    .left .red_inline .red_inline {
+      height: 1.5px;
+      width: 30px;
+      background-color: #ee534f; }
+    .left .red_inline .fade {
+      height: 1.5px;
+      width: 138.5px;
+      background-color: grey;
+      opacity: 0.5; }
 
 .container_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: min-content; }
   .container_2 img {
-    padding: 5px; }
+    padding: 10px; }
 
 .grid_2 {
   display: grid;
@@ -55,29 +73,28 @@
   text-align: center; }
 
 .container3 {
-  padding-left: 187.5px;
-  padding-right: 187.5px;
+  padding-left: 340px;
+  padding-right: 423px;
   margin-bottom: 50px;
   margin-top: 50px; }
-  .container3 .red_line {
+  .container3 .red_inline {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: min-content; }
-    .container3 .red_line .red_line {
+    .container3 .red_inline .red_inline {
       height: 1.5px;
       width: 30px;
       background-color: #ee534f; }
-    .container3 .red_line .fade {
+    .container3 .red_inline .fade {
       height: 1.5px;
       width: 138.5px;
       background-color: grey;
-      opacity: 0.3; }
+      opacity: 0.5; }
   .container3 .img_sec {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: min-content;
-    margin-left: 130px;
-    padding: 10px; }
+    margin-left: 0px; }
     .container3 .img_sec .course_img {
       display: grid;
       grid-template-columns: 1fr 1fr;

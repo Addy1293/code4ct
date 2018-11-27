@@ -1,21 +1,18 @@
-@mixin red_line{
-    .red_line{
+@mixin red_inline{
+    .red_inline{
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: min-content;
-        .red_line{
+        .red_inline{
         height:1.5px;
         width: 30px;
         background-color: #ee534f;
-
-
         }
         .fade{
             height:1.5px;
             width: 138.5px;
             background-color: grey;
-            opacity: 0.3;
+            opacity: 0.5;
         }
-}
-    
+    }  
 }
