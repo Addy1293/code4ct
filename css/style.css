@@ -35,8 +35,8 @@
 
 .left {
   text-align: justify;
-  padding-left: 355px;
-  padding-right: 16%; }
+  padding-left: 253px;
+  padding-right: 192px; }
   .left .red_inline {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,13 +54,14 @@
 .container_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: min-content; }
+  width: min-content;
+  font-display: fontawesome; }
   .container_2 img {
     padding: 10px; }
 
 .grid_2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 30px 60px;
   background-color: black;
   color: whitesmoke;
