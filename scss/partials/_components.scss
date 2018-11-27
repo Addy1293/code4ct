@@ -41,4 +41,24 @@
       padding: 8px;
       width: 110px;
       position: relative;
+      cursor: pointer;
+      color: #FFFFFF;
+      background-color: transparent;
   }
+  .button_2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button_2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button_2 read{
+    color: black;
+}

@@ -11,7 +11,7 @@
   text-align: -webkit-center;
   position: absolute;
   width: 480px;
-  transform: translate(110%, -203%);
+  transform: translate(101%, -198%);
   color: #e8e8e6; }
 
 .left {
@@ -159,6 +159,26 @@ i {
   font-size: 12px;
   padding: 8px;
   width: 110px;
-  position: relative; }
+  position: relative;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: transparent; }
+
+.button_2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+.button_2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s; }
+
+.button_2 read {
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */
