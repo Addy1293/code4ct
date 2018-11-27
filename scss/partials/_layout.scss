@@ -33,6 +33,7 @@
     padding: 30px 60px;
     background-color: black;
     color: whitesmoke;
+    margin-top: 15px;
 }
 // text for banner
 .grid_text{
@@ -41,11 +42,26 @@
     width: 322px;
     text-align: center;
 }
-.container_3{
-    display: grid;
+// display text above grid
+.container3{
+    @include red_line;
+    padding-left: 187.5px;
+    padding-right: 187.5px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    .img_sec{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: min-content;
+        margin-left: 130px;
+        padding: 10px;
+        .course_img{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: min-content;
+        }
+
+    }
 }
-.images1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
+    

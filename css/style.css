@@ -45,7 +45,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 30px 60px;
   background-color: black;
-  color: whitesmoke; }
+  color: whitesmoke;
+  margin-top: 15px; }
 
 .grid_text {
   padding-left: 40px;
@@ -53,13 +54,34 @@
   width: 322px;
   text-align: center; }
 
-.container_3 {
-  display: grid; }
-
-.images1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; }
+.container3 {
+  padding-left: 187.5px;
+  padding-right: 187.5px;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+  .container3 .red_line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content; }
+    .container3 .red_line .red_line {
+      height: 1.5px;
+      width: 30px;
+      background-color: #ee534f; }
+    .container3 .red_line .fade {
+      height: 1.5px;
+      width: 138.5px;
+      background-color: grey;
+      opacity: 0.3; }
+  .container3 .img_sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content;
+    margin-left: 130px;
+    padding: 10px; }
+    .container3 .img_sec .course_img {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: min-content; }
 
 .search {
   margin-left: 45%; }
