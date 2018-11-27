@@ -19,8 +19,8 @@
 .left{
     @include red_inline;
     text-align: justify;
-    padding-left: 253px;
-    padding-right: 192px;
+    padding-left: 180px;
+    padding-right: 125px;
 }
 // align text according to images
 .container_2{
@@ -44,16 +44,16 @@
 }
 // text for banner
 .grid_text{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 5px;
+    padding-right: 35px;
     width: 322px;
     text-align: center;
 }
 // display text above grid
 .container3{
     @include red_inline;
-    padding-left: 245px;
-    padding-right: 423px;
+    padding-left: 182px;
+    padding-right: 290px;
     margin-bottom: 50px;
     margin-top: 50px;
 
