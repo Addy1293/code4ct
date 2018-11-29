@@ -52,7 +52,10 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 15px;
-  padding: 15px; }
+  padding: 15px;
+  position: fixed;
+  background-color: white;
+  float: right; }
 
 .navbar {
   text-align: right;
