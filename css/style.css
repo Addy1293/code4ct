@@ -46,16 +46,18 @@ i {
   opacity: 0.5; }
 
 a {
-  margin: 20px; }
+  margin: 20px;
+  text-decoration: none;
+  color: black; }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 15px;
-  padding: 15px;
-  position: fixed;
+  padding: 25px;
   background-color: white;
-  float: right; }
+  text-align: center;
+  width: 100%; }
 
 .navbar {
   text-align: right;
