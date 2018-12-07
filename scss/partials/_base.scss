@@ -11,7 +11,7 @@
     text-align: -webkit-center;
     position: absolute;
     width: 480px;
-    transform: translate(101%, -198%);
+    transform: translate(127%, -198%);
     color: #e8e8e6;
 }
 .left{
@@ -49,4 +49,18 @@ a{
     margin: 20px;
     text-decoration: none;
     color: black;
+}
+.grid_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 60px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+.strip_2{
+    padding-left: 5px;
+    padding-right: 35px;
+    width: 322px;
+    text-align: center;
 }
