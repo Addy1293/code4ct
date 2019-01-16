@@ -72,15 +72,13 @@ a {
 .container5 .member_icons a {
   text-decoration: none; }
 
-nav {
-  display: inline;
-  grid-template-columns: 1fr 1fr 1fr;
+.container {
   position: sticky;
-  top: 0;
   background-color: #f9f9f9;
   text-align: center; }
 
 .logo_ct {
+  text-align: left;
   height: 5%; }
 
 .grid {
@@ -215,6 +213,14 @@ nav {
     .container_5 .member_grid .member_space {
       margin-left: 20px;
       margin-bottom: 20px; }
+
+.section {
+  padding: 10% 10%;
+  text-align: center; }
+
+.strip_2 {
+  background-color: #f9f9f9;
+  color: black; }
 
 .search {
   margin-left: 25%; }

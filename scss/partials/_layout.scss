@@ -1,13 +1,12 @@
 //////////////////navbar styling //////////////////
-nav{
-    display: inline;
-    grid-template-columns: 1fr 1fr 1fr;
+.container{
     position: sticky;
-    top: 0;
     background-color: #f9f9f9;
     text-align: center;
 }
+
 .logo_ct{
+    text-align: left;
     height: 5%;
 }
 // structure for images
@@ -117,4 +116,12 @@ nav{
         }
         
     }
+}
+.section{
+    padding: 10% 10%;
+    text-align: center;
+}
+.strip_2{
+    background-color: #f9f9f9;
+    color: black;
 }
