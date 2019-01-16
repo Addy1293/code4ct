@@ -72,6 +72,9 @@ a {
 .container5 .member_icons a {
   text-decoration: none; }
 
+.plane {
+  text-align: center; }
+
 .container {
   position: sticky;
   background-color: #f9f9f9;
