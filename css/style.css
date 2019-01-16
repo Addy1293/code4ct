@@ -50,14 +50,37 @@ a {
   text-decoration: none;
   color: black; }
 
-.container {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr 0.7fr;
+.container5 .team_layout h4 {
+  margin-top: 0; }
+.container5 .team_layout p {
+  margin-top: 0;
+  width: 280px;
+  height: 153px; }
+.container5 .member_icons i {
+  width: 22px;
+  height: 19px;
+  font-family: FontAwesome;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.65;
+  letter-spacing: normal;
+  text-align: center;
+  color: #88888888;
+  padding: 5px; }
+.container5 .member_icons a {
+  text-decoration: none; }
+
+nav {
+  display: inline;
+  grid-template-columns: 1fr 1fr 1fr;
   position: sticky;
   top: 0;
   background-color: #f9f9f9;
   height: 70.5px;
-  z-index: 1; }
+  z-index: 5;
+  text-align: center; }
 
 .dropdown {
   position: relative;
@@ -69,8 +92,10 @@ a {
   background-color: #f1f1f1;
   text-align: left;
   min-width: 80px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1; }
+
+.logo_ct {
+  height: 5%; }
 
 .grid {
   display: grid;
@@ -114,12 +139,12 @@ a {
 .grid_text {
   padding-left: 5px;
   padding-right: 35px;
-  width: 322px;
+  width: 273px;
   text-align: center; }
 
 .container3 {
-  padding-left: 182px;
-  padding-right: 290px;
+  padding-left: 165px;
+  padding-right: 2px;
   margin-bottom: 50px;
   margin-top: 50px; }
   .container3 .red_inline {
@@ -162,8 +187,51 @@ a {
       background-color: grey;
       opacity: 0.5; }
 
+.container_5 {
+  padding-left: 92.5px;
+  padding-right: 92.5px; }
+  .container_5 .red_inline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content; }
+    .container_5 .red_inline .red_inline {
+      height: 1.5px;
+      width: 30px;
+      background-color: #ee534f; }
+    .container_5 .red_inline .fade {
+      height: 1.5px;
+      width: 138.5px;
+      background-color: grey;
+      opacity: 0.5; }
+  .container_5 .members {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .container_5 .members hr {
+      width: 200px;
+      color: #666666;
+      margin-left: 0; }
+    .container_5 .members .poppins {
+      font-family: Poppins;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: #888888;
+      height: auto; }
+  .container_5 .team_member {
+    width: 190px;
+    height: 258px; }
+  .container_5 .member_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .container_5 .member_grid .member_space {
+      margin-left: 20px;
+      margin-bottom: 20px; }
+
 .search {
-  margin-left: 45%; }
+  margin-left: 25%; }
 
 .button_1 {
   border-radius: 4px;

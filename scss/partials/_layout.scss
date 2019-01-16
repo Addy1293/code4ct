@@ -1,27 +1,28 @@
-//////////////////nav styling start //////////////////
-.container{
-    display:grid;
-    grid-template-columns: 0.5fr 1fr 0.7fr;
+//////////////////navbar styling //////////////////
+nav{
+    display: inline;
+    grid-template-columns: 1fr 1fr 1fr;
     position: sticky;
     top: 0;
     background-color: #f9f9f9;
     height: 70.5px;
-    z-index: 1;
+    z-index: 5;
+    text-align: center;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     text-align: left;
     min-width: 80px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
+.logo_ct{
+    height: 5%;
 }
 // structure for images
 .grid{
@@ -60,14 +61,14 @@
 .grid_text{
     padding-left: 5px;
     padding-right: 35px;
-    width: 322px;
+    width: 273px;
     text-align: center;
 }
 // display text above grid
 .container3{
     @include red_inline;
-    padding-left: 182px;
-    padding-right: 290px;
+    padding-left: 165px;
+    padding-right: 2px;
     margin-bottom: 50px;
     margin-top: 50px;
 
@@ -83,9 +84,51 @@
         }
     }
 }
-    
+// 4........................ 
 .container_4{
     @include red_inline;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+// 5.............
+.container_5{
+    @include red_inline;
+    padding-left: 92.5px;
+    padding-right: 92.5px;
+    .members{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        hr{
+            width: 200px;
+            color: #666666;
+            margin-left: 0;
+        }
+        .poppins{
+            font-family: Poppins;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.86;
+            letter-spacing: normal;
+            text-align: left;
+            color: #888888;
+            height: auto;
+        }
+    }
+    .team_member{
+        width: 190px;
+        height: 258px;
+    }
+    .member_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // height:min-content;
+        // width: min-content;
+        .member_space{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+    }
 }
