@@ -285,6 +285,18 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; }
 
+.footer {
+  background-color: #ee524e;
+  height: 90px;
+  width: 100%; }
+
+.copyright {
+  text-align: left; }
+
+.social_media {
+  text-align: right;
+  font-family: fontawesome; }
+
 .search {
   margin-left: 25%; }
 
