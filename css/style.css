@@ -24,6 +24,9 @@ p.txt1 {
 .grid_text1 {
   font-size: 15px; }
 
+.grid_text i {
+  font-size: 4em; }
+
 i {
   width: 10px;
   height: 10px;
