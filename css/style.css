@@ -255,8 +255,8 @@ a {
 .strip_3 {
   display: block;
   margin: 0 auto;
-  height: 178px;
-  border: 1px solid black;
+  height: 190px;
+  border: 2px solid black;
   overflow: hidden;
   background-color: black; }
 
@@ -280,7 +280,7 @@ a {
 @keyframes carousel {
   100% {
     position: relative;
-    left: -4490px; } }
+    left: -5000px; } }
 .search {
   margin-left: 25%; }
 
