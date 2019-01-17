@@ -9,7 +9,7 @@
 
 .txt {
   text-align: center;
-  padding-top: 17%;
+  padding-top: 15%;
   color: #ffffff; }
 
 p.txt1 {
@@ -98,16 +98,17 @@ a {
   position: sticky;
   background-color: #f9f9f9;
   text-align: center;
-  width: 99%;
-  margin-top: 0%; }
+  width: 100%;
+  margin-top: 0%;
+  top: 0;
+  z-index: 99; }
 
 .vertical_align {
   margin-left: 70em;
   padding-bottom: 2%; }
 
 #logo_ct {
-  text-align: left;
-  height: 5%; }
+  text-align: left; }
 
 .grid {
   display: grid;
