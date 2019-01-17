@@ -75,6 +75,31 @@ a {
 .plane {
   text-align: center; }
 
+.social_media i {
+  width: 25px;
+  height: 22px;
+  font-family: FontAwesome;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.65;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 5px; }
+
+.contact1 {
+  width: 25px;
+  height: 22px;
+  font-family: FontAwesome;
+  font-size: 15px;
+  line-height: 0.65;
+  letter-spacing: normal;
+  text-align: center;
+  color: #88888888;
+  padding: 5px; }
+
 .container {
   position: sticky;
   background-color: #f9f9f9;
@@ -281,9 +306,15 @@ a {
   100% {
     position: relative;
     left: -5000px; } }
+.contact1 {
+  display: grid;
+  grid-template-rows: 0.35fr 0.35fr 0.35fr;
+  margin-left: 6%; }
+
 .contact_info {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-right: 5%; }
 
 .footer {
   background-color: #ee524e;
@@ -291,11 +322,12 @@ a {
   width: 100%; }
 
 .copyright {
-  text-align: left; }
+  padding: 0.5%;
+  text-align: left;
+  color: #f9f9f9; }
 
 .social_media {
-  text-align: right;
-  font-family: fontawesome; }
+  text-align: right; }
 
 .search {
   margin-left: 25%; }

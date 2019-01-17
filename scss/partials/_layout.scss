@@ -175,9 +175,15 @@
     }
 }
 // end main carousel..............
+.contact1{
+    display: grid;
+    grid-template-rows: 0.35fr 0.35fr 0.35fr;
+    margin-left: 6%; 
+}
 .contact_info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 5%;
 }
 .footer{
     background-color: #ee524e;
@@ -185,9 +191,10 @@
     width: 100%;
 }
 .copyright{
+    padding: 0.5%;
     text-align: left;
+    color: #f9f9f9;
 }
 .social_media{
     text-align: right;
-    font-family: fontawesome;
 }
