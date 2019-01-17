@@ -281,6 +281,10 @@ a {
   100% {
     position: relative;
     left: -5000px; } }
+.contact_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
 .search {
   margin-left: 25%; }
 
