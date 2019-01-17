@@ -42,7 +42,8 @@ i {
 
 .red_inline {
   height: 1.5px;
-  width: 30px; }
+  width: 30px;
+  background-color: #ee534f; }
 
 .fade {
   height: 1.5px;
@@ -104,7 +105,8 @@ a {
   width: 100%;
   margin-top: 0%;
   top: 0;
-  z-index: 99; }
+  z-index: 99;
+  padding-top: 0.5em; }
 
 .vertical_align {
   margin-left: 70em;
@@ -162,7 +164,7 @@ a {
   margin-top: 15px; }
 
 .grid_text {
-  padding-left: 5px;
+  padding-left: 10px;
   padding-right: 35px;
   width: 273px;
   text-align: center; }
