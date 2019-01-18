@@ -126,7 +126,7 @@ color: #666666;
         grid-template-columns: 1fr 1fr;
         .spaces{
             margin-left: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
     }
 }
@@ -209,4 +209,9 @@ color: #666666;
 }
 .social_media{
     text-align: right;
+}
+// Contact page................................
+.contact_input{
+display: grid;
+grid-template-columns: 1fr 1fr;
 }

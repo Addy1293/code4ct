@@ -67,4 +67,3 @@ function addCart(name, price) {
 //REMEMBER the cart total must update as the quantity changes
 
 
-Sent from my Huawei phone
