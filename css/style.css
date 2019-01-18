@@ -282,6 +282,9 @@ a {
       background-color: lightgrey;
       opacity: 0.5; }
 
+.count {
+  padding: 2.75em; }
+
 .carousel {
   background-color: black;
   width: 100%;
