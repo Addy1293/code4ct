@@ -4,15 +4,33 @@
         grid-template-columns: 1fr 1fr;
         width: min-content;
         .red_inline{
-        height:1.5px;
-        width: 30px;
+        height:1.7px;
+        width: 35px;
         background-color: #ee534f;
         }
         .fade{
-            height:1.5px;
-            width: 138.5px;
+            height:1.7px;
+            width: 135px;
             background-color: lightgrey;
             opacity: 0.5;
         }
     }  
+}
+@mixin red_center{
+    .red_center{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: min-content;
+    .red_center{
+        height: 2px;
+        width: 45px;
+        background-color: #ee534f;
+    }
+    .fade_l_r{
+        height: 1.5px;
+        width: 145px;
+        background-color: lightgrey;
+        opacity: 0.5;
+        }
+    }
 }
