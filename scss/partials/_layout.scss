@@ -98,37 +98,33 @@ color: #666666;
     @include red_inline;
     padding-left: 92.5px;
     padding-right: 92.5px;
-    .members{
+    .people{
         display: grid;
         grid-template-columns: 1fr 1fr;
-
         hr{
-            width: 200px;
+            width: 195px;
             color: #666666;
             margin-left: 0;
         }
-        .poppins{
-            font-family: Poppins;
+        .verdana{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: normal;
             font-style: normal;
             font-stretch: normal;
             line-height: 1.86;
-            letter-spacing: normal;
             text-align: left;
             color: #888888;
             height: auto;
         }
     }
-    .team_member{
-        width: 190px;
-        height: 258px;
+    .individual{
+        width: 220px;
+        height: 280px;
     }
-    .member_grid{
+    .squad_grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        // height:min-content;
-        // width: min-content;
-        .member_space{
+        .spaces{
             margin-left: 20px;
             margin-bottom: 20px;
         }

@@ -60,20 +60,17 @@ a{
 }
 // 5............
 .container5{
-    .team_layout{
+    .indiv_layout{
         h4{
             margin-top: 0;
-
         }
         p{
             margin-top: 0;
             width: 280px;
             height: 153px;
-
         }
     }
-
-    .member_icons{
+    .indiv_icons{
         i{
         width: 22px;
         height: 19px;
@@ -82,15 +79,14 @@ a{
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
-        line-height: 0.65;
+        line-height: 0.61;
         letter-spacing: normal;
         text-align: center;
         color: #88888888;
-        padding: 5px;
+        padding: 10px;
         }
         a{
         text-decoration: none;
-
         }
     }
 }
