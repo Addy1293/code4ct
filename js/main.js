@@ -1,0 +1,4 @@
+var cupsofCoffee
+var numberofGirls
+var projectsCompleted
+var hoursofCoding
