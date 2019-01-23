@@ -22,14 +22,14 @@
 // -----------------COUNTER------------------------------------
 
 var timeLeftForCoffee=0;
-var timeLeftForGirls=280;
-var timeLeftForProjects=2630;
-var timeLeftForHours=8265;
+var timeLeftForGirls=10;
+var timeLeftForProjects=1500;
+var timeLeftForHours=5454;
 
-var cupsOfCoffee=document.getElementById("cupsOfCoffee");
+var cupsOfCoffee=document.getElementById("coffee");
 var girls=document.getElementById("girls");
 var projects=document.getElementById("projects");
-var hoursCoding=document.getElementById("hoursCoding");
+var hoursCoding=document.getElementById("coding");
 
 var timer=setInterval(function(){
     cupsOfCoffee.innerHTML=timeLeftForCoffee;
