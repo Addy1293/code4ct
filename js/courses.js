@@ -4,8 +4,8 @@
 // console.log(items);
 ​
 let cart = [
-    // { name: name, price: price,},
-    // { name: name, price: price,},
+    var cart_prices = new Array();
+    
     // { name: name, price: price,},
     // { name: name, price: price,},
     // { name: name, price: price,},
