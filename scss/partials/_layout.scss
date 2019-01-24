@@ -117,9 +117,15 @@ color: #666666;
             height: auto;
         }
     }
+    .describe_width{
+        width: 20em;
+    }
     .individual{
         width: 220px;
         height: 280px;
+    }
+    .indiv_icons{
+        height: 2em;
     }
     .squad_grid{
         display: grid;
@@ -215,8 +221,11 @@ color: #666666;
 display: grid;
 grid-template-columns: 1fr 1fr;
 }
-#googleMap{
-    margin-top: 28%;
+.contact_i{
+
+}
+.maps{
+    margin-top: 30%;
 }
 // Portfolio................
 .heading{

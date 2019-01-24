@@ -1,3 +1,4 @@
+// --------------------SMOOTH SCROLL
 // jQuery(document).ready(function() {
 //     var offset = 220;
 //     var duration = 500;
@@ -21,11 +22,10 @@
 
 // -----------------COUNTER------------------------------------
 
-var timeLeftForCoffee=0;
-var timeLeftForGirls=10;
 var timeLeftForProjects=1500;
 var timeLeftForHours=5454;
-
+var timeLeftForCoffee=0;
+var timeLeftForGirls=10;
 var cupsOfCoffee=document.getElementById("coffee");
 var girls=document.getElementById("girls");
 var projects=document.getElementById("projects");
@@ -44,8 +44,8 @@ var timer=setInterval(function(){
         projects.innerHTML="3120+";
         hoursCoding.innerHTML="8765+";
     }
-    timeLeftForCoffee+=10;
-    timeLeftForGirls++;
     timeLeftForHours++;
     timeLeftForProjects++;
-},1);
+    timeLeftForCoffee+=5;
+    timeLeftForGirls++;
+},);
