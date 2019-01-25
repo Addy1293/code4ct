@@ -216,6 +216,10 @@ color: #666666;
 .social_media{
     text-align: right;
 }
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 // Contact page................................
 .contact_input{
 display: grid;

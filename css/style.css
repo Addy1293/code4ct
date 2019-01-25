@@ -347,6 +347,10 @@ a {
 .social_media {
   text-align: right; }
 
+#main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
 .contact_input {
   display: grid;
   grid-template-columns: 1fr 1fr; }
