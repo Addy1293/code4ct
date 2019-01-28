@@ -247,9 +247,13 @@ a {
       text-align: left;
       color: #888888;
       height: auto; }
+  .container_5 .describe_width {
+    width: 20em; }
   .container_5 .individual {
     width: 220px;
     height: 280px; }
+  .container_5 .indiv_icons {
+    height: 2em; }
   .container_5 .squad_grid {
     display: grid;
     grid-template-columns: 1fr 1fr; }
@@ -343,12 +347,16 @@ a {
 .social_media {
   text-align: right; }
 
+#main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
 .contact_input {
   display: grid;
   grid-template-columns: 1fr 1fr; }
 
-#googleMap {
-  margin-top: 28%; }
+.maps {
+  margin-top: 30%; }
 
 .heading {
   text-align: center; }

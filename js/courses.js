@@ -55,7 +55,7 @@
 //         // Append <li> to <ul> with id="myList"                             
 //         div.appendChild(node);
 //     }
-}
+// }
 ​
 //STILL TO DO
 //remove an item from cart
