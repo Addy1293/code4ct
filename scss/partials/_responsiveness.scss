@@ -39,12 +39,46 @@
             grid-template-columns: 1fr;
             
     }
-    .strip_2{
+    .main_counter{
+        display: grid;
+        // grid-template-columns: 1fr;
+        .strip_2{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 0;
+            height: auto;
+            margin-top: 0;
+            width: 0;
+    
+        }
+        }
+    .strip_3{
         display: grid;
         grid-template-columns: 1fr;
         padding: 0;
-        }
+    }
     
+    }
+    .container_5{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        .people{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 0;
+            padding: 0;
+        }
+    }
+    .contact_info{
+        display: grid;
+        grid-template-columns: 1fr;
+        .contact_2{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 0;
+            padding: 0;
+        }
     }
     
 }
