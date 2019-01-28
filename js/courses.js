@@ -1,62 +1,60 @@
-'use strict';
-​
-// let items = document.getElementsByClassName('item');
-// console.log(items);
-​
-let cart = [
-    var cart_prices = new Array();
+// window.document.onload = () => {
+//     debugger;
+//     const button1 = document.getElementById("button1");
+//     button1.addEventListener("click", addCart('sean', 100));
+//     const button2 = document.getElementById("button2");
+//     button1.addEventListener("click", addCart('sean1', 200));
+//     const button3 = document.getElementById("button3");
+//     button1.addEventListener("click", addCart('sean2', 300));
+// };
+// const cart = [];
+
+// // let cart = [
+// //     var cart_prices = new Array();
     
-    // { name: name, price: price,},
-    // { name: name, price: price,},
-    // { name: name, price: price,},
-    // { name: name, price: price,},
-];
-​
-function addCart(name, price) {
-​
-    //create item
-    let item = {
-        name: name,
-        price: price,
-    };
-​
-    //check if array empty
-    if (cart.length != 0) {
-        //search an item in an array
-        let check = false;
-        for (let cartItem in cart) {
-            if (cart[cartItem].name === item.name) {
-                check = true;
-            }
-        }
-​
-        //if check returns false,  item was not found in the array.
-        if (!check) { cart.push(item) }
-​
-        //else push to array
-    } else {
-        cart.push(item);
-    }
-​
-    //get cart div
-    let div = document.getElementById('cart');
-    //clear cart
-    div.innerHTML = "";
-​
-    //show cart with updated array
-    for (let value in cart) {
-​
-        // Create a <li> node
-        let node = document.createElement("LI");
-        // Create a text node               
-        let textnode = document.createTextNode(cart[value].name);
-​
-        // Append the text to <li>
-        node.appendChild(textnode);
-​
-        // Append <li> to <ul> with id="myList"                             
-        div.appendChild(node);
-    }
+// //     // { name: name, price: price,},
+// //     // { name: name, price: price,},
+// //     // { name: name, price: price,},
+// //     // { name: name, price: price,},
+// // ];
+// function addCart(name, price) {
+//     console.log("here")
+
+//     //create item
+//     const item = {
+//         name: name,
+//         price: price,
+//     };
+
+//     //check if array empty
+//     if (cart.filter(row => row.name === item.name).length === 0){
+//         cart.push(item);
+//     }
+
+//     //get cart div
+//     let ul = document.getElementById('cart1');
+//     //clear cart
+//     ul.innerHTML = "";
+
+    // cart.forEach(value => {
+    //     // Create a <li> node
+    //     let node = document.createElement("li");
+    //     const display = `${value.name}-${value.price}`;
+    //     // Create a text node               
+    //     let textnode = document.createTextNode(display);
+    //     ul.appendChild(node);
+    // });
+
+//     //show cart with updated array
+//     for (let value in cart) {
+// ​
+    
+//         // Append the text to <li>
+//         node.appendChild(textnode);
+// ​
+//         // Append <li> to <ul> with id="myList"                             
+//         div.appendChild(node);
+//     }
 }
 ​
 //STILL TO DO
