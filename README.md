@@ -7,7 +7,7 @@
 - Created a repo on github called code4ct_2
 - Made the website live.
 - Created a folder structure using our command
- line.
+  line.
 - Created a index.html file and created a boiler plate.
 
 ## Navigation bar:
@@ -42,7 +42,7 @@
 - Includes their image, the job title and a small description.
 - All images has a hover effect.
 - Includes their social media links.
-- However, links only goes to the homepage of the respected social media platforms as we do not have their social media links as of yet.
+- However, links only goes to the homepage of the respected social media platforms as we do not have their social    media links as of yet.
 
 ## Counter
 - Display the amount the amount of;
