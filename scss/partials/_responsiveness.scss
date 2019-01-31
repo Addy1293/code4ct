@@ -32,21 +32,24 @@
         .img_sec{
             display: grid;
             grid-template-columns: 1fr;
-            
+            width: 0;  
+            padding: 0;    
     }
     .main_counter{
         display: grid;
-        // grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
         .strip_2{
             display: grid;
             grid-template-columns: 1fr;
-            padding: 0;
-            height: auto;
-            margin-top: 0;
-            width: 0;
+            text-align: center;
+            margin-top: 40px;
+            background-color: black;
+            color: #e8e8e8;
+            // height: 175px;
+            width: 100%;
     
         }
-        }
+    }
     .strip_3{
         display: grid;
         grid-template-columns: 1fr;
@@ -69,6 +72,12 @@
         display: grid;
         grid-template-columns: 1fr;
         .contact_2{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 0;
+            padding: 0;
+        }
+        .img_grid{
             display: grid;
             grid-template-columns: 1fr;
             width: 0;
