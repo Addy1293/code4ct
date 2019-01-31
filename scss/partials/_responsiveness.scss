@@ -94,9 +94,12 @@
     position:sticky;
     background-color: #f9f9f9;
     padding: 0;
-    .pages_1{
+   
+}
+ .pages_1{
         display: grid;
         grid-template-columns: 1fr;
         padding: 0;
+        width: auto;
+        margin-right: 0;
     }
-}

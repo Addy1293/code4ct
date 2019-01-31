@@ -18,7 +18,7 @@
 ## Banner:
 - Banner has a background image with text on top.
 - There is a gradient over the background image  for text readibility.
-- Two buttons were added, namely the start coding and donate now button, with their respected        colors.
+- Two buttons were added, namely the start coding and donate now button, with their respected colors.
 
 ## Who we are:
 - Gives more info as to what is done with Code4CT.
@@ -27,22 +27,22 @@
 - Includes a read more button.
 
 ## Icon Bar:
-- Information about coding,communication,            problem solving and career guidance.
+- Information about coding,communication, problem solving and career guidance.
 - Each section was created using CSS grids.
-- Each small section has its own icon in the color   that used through out the website.
+- Each small section has its own icon in the color that used through out the website.
 
 ## Exciting Courses:
 - CSS grids was used to create this section.
-- Gives more information as to the accolades         code4ct has received
+- Gives more information as to the accolades code4ct has received
 - Includes an image gallery.
 - All images has a hover effect over it.
 
 ## Meet the team:
 - Introduces the prominent members of the organization.
-- Includes their image, the job title and a small    description.
+- Includes their image, the job title and a small description.
 - All images has a hover effect.
 - Includes their social media links.
-- However, links only goes to the homepage of the    respected social media platforms as we do not      have their social media links as of yet.
+- However, links only goes to the homepage of the respected social media platforms as we do not have their social media links as of yet.
 
 ## Counter
 - Display the amount the amount of;
@@ -50,7 +50,7 @@
 - Hours spent coding,
 - Projects completed and
 - Number of girls
-- javaScript will be used to make the counter        start from 0 and count up until the amount to      date.
+- JavaScript will be used to make the counter start from 0 and count up until the amount to date.
 
 ## Subscribe
 - Includes a an email input.
@@ -65,7 +65,7 @@
 - includes sub sections namely; Contact us ,company, Help&Support and courses
 
 ## Footer
-- Contains copyright clause
+- Contains copyright.
 - Links to social media of Code4CT.
 
 ## 16 November
@@ -83,6 +83,7 @@ Languages
 - CSS
 - SASS
 - JavaScript
+- Jquery
 
 ```
 
