@@ -499,5 +499,15 @@ a {
       grid-template-columns: 1fr;
       width: 0;
       padding: 0; } }
+.about_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: sticky;
+  background-color: #f9f9f9;
+  padding: 0; }
+  .about_container .pages_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
